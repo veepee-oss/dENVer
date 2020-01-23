@@ -1,41 +1,9 @@
-
-
-##  secret:
-##      """
-##      VAR1=xxxxxxx
-##      VAR2=yyyyyyy
-##      """
-##  
-##  # available secret store
-##  # yay plugins ! 
-##   - gopass
-##   - keepassxc 
-##   - custom
-##  
-##  ## eval secret
-##  
-##  ## --> env vars
-##  ## --> names of env vars
-##  
-##  ## alias forget 
 import os
 import re
 import sys
 import click
 import subprocess
 import configparser
-
-
-# secrets_storage = {
-        # 'gopass': 'gopass show [name]'
-        # 'keepassxc': 'keepassxc-cli show [passwd file] -s -q -a Notes [name]'
-# }
-
-secret = """
-rien=blah
-de=weoijhiwj= weoj
-de=   weoijhiwj= weoj
-"""
 
 @click.command()
 @click.option('--name', '-n', help='Name of the entry in the password manager')
