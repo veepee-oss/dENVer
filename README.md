@@ -33,7 +33,7 @@ to use it safely with actual secrets.
 
 It could work, with some effort, in windows, but it's out of scope for now.
 
-The `demo.cfg` file can be copied to `$HOME/.denver.cfg` 
+The `demo.cfg` file can be copied to `$HOME/.denver.cfg`.
 
 ```bash
 pip install -r requirements.txt
@@ -79,6 +79,11 @@ env
 # forget about these
 fdenver
 ```
+
+### XXXX marks the spot
+
+You can see 'XXXX' in command parameters, they're magic-value, and will be 
+replaced with the `name` (`-n key`, or `--name key`) parameter at runtime. 
 
 ### more help
 
