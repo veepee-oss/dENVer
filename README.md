@@ -65,7 +65,13 @@ If your environment already has a variable with the same name in its scope,
 `denver` won't overwrite it, nor set it to be unset. 
 
 ```bash
+# source it from a subshell
 source <(denver.py -n NAME)
+
+# display the commands
+denver.py -n NAME
+[ keep the space as 1st char if you copy/paste those commands so they're not 
+appended to your .history file ]
 
 # look at the variables being correctly set up:
 env
@@ -88,3 +94,9 @@ You can't (easily) reach the subshell's stdin, it means you should use an
 external prompt program if the password tool give an interactive prompt, use a 
 graphical tool in order to pipe your password there (cf. `keepassxc` command)
 
+### bugs
+
+- there's no context awareness, if you run it twice with different variables 
+  bundles, the `fdenver` alias won't be properly created, and will fail to 
+  unset every variables (should you be in that situation : just exit the damn 
+  shell)
