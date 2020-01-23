@@ -37,7 +37,7 @@ The `demo.cfg` file can be copied to `$HOME/.denver.cfg`.
 
 ```bash
 pip install -r requirements.txt
-ln -s `pwd`/denver.py $HOME/.local/bin
+pip install git+git@git.vptech.eu:ylamouroux/denver.git#egg=denver
 ```
 
 ## usage
