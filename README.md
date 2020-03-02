@@ -14,7 +14,7 @@ plain-text, or we just `export BASH_VARS=SeCrEt`, and the secret end-up in
 `.bash_history`.
 
 On another side, we start to implement saner password management policies,
-thanks to tools such as `password-store`, `keepass`, `1password`, and so many
+thanks to tools such as `password-store`, `keepass`, `1password`, `lastpass`, and so many
 more.
 
 Let's try to fix it.
