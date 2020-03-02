@@ -35,9 +35,10 @@ It could work, with some effort, in windows, but it's out of scope for now.
 The `demo.cfg` file can be copied to `$HOME/.denver.cfg`.
 
 ```bash
-pip install -r requirements.txt pip install
-git+git@git.vptech.eu:ylamouroux/denver.git#egg=denver
+pip install denver
 ```
+
+Please do use a virtual environment.
 
 ## usage
 
@@ -46,7 +47,8 @@ git+git@git.vptech.eu:ylamouroux/denver.git#egg=denver
 Store a secret in the form of:
 
 ```
-VAR_NAME_FOO=a_secret VAR_BAR=another_secret
+VAR_NAME_FOO=a_secret
+VAR_BAR=another_secret
 ```
 
 If you use keepass, use the `Notes` field.
