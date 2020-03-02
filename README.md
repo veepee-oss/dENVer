@@ -27,9 +27,8 @@ I'm not your boss)
 
 ## installation
 
-It's currently a WIP (work in progress) so it won't be pushed to pypi (yet),
-but due to being a pretty dumb wrapper around more mature tools, you can start
-to use it safely with actual secrets.
+It's currently a WIP (work in progress), but due to being a pretty dumb wrapper
+around more mature tools, you can start to use it safely with actual secrets.
 
 It could work, with some effort, in windows, but it's out of scope for now.
 
