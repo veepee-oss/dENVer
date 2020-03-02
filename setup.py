@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://git.vptech.eu/ylamouroux/denver",
     packages=setuptools.find_packages(),
+    install_requires=['click'],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Programming Language :: Python :: 3",
