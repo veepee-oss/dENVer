@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="denver",
-    version="0.0.1",
+    version="0.0.2",
     author="Yoann Lamouroux",
     author_email="ylamouroux@vente-privee.com",
     description="A secret environment management",
